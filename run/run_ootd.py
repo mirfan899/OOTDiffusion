@@ -21,7 +21,7 @@ parser.add_argument('--model_type', type=str, default="hd", required=False)
 parser.add_argument('--category', '-c', type=int, default=0, required=False)
 parser.add_argument('--scale', type=float, default=2.0, required=False)
 parser.add_argument('--step', type=int, default=20, required=False)
-parser.add_argument('--sample', type=int, default=4, required=False)
+parser.add_argument('--sample', type=int, default=1, required=False)
 parser.add_argument('--seed', type=int, default=-1, required=False)
 args = parser.parse_args()
 
